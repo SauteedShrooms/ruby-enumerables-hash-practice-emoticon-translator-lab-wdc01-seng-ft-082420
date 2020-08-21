@@ -23,5 +23,5 @@ def get_english_meaning(emoticon_files, emoticon)
   end
   #binding.pry
 end
-return ""
+return "Sorry, that emoticon was not found"
 end
