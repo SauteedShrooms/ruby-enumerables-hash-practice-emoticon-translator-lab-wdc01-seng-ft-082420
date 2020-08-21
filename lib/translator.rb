@@ -1,4 +1,4 @@
-# require modules here
+require 'pry'# require modules here
 
 def load_library(emoticon_files)
   
