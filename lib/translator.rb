@@ -7,7 +7,7 @@ def load_library(emoticon_files)
   emoticons.each do |key, value|
     new_hash[key] = {"English" => value[0], "Japanese" => value[1]}
   binding.pry
-end
+ end
 end
 
 def get_japanese_emoticon
