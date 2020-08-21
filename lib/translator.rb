@@ -23,4 +23,5 @@ def get_english_meaning(emoticon_files, emoticon)
   end
   #binding.pry
 end
+return ""
 end
