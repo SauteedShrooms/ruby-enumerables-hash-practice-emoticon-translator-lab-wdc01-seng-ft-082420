@@ -3,7 +3,7 @@ require 'pry'# require modules here
 
 def load_library(emoticon_files)
   emoticons = YAML.load_file('./lib/emoticons.yml')
-  emoticons.map{|(key, value)|[key.to_sym,val]}.to_hash
+  #emoticons.map{|(key, value)|[key.to_sym,val]}
   binding.pry
 end
 
