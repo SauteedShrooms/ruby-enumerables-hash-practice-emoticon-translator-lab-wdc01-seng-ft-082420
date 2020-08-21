@@ -11,7 +11,7 @@ def load_library(emoticon_files)
  new_hash
  end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticon_files, emoticon)
   emoticons = load_library(emoticon_files)
   emoticons.each do |key, value| 
     if emoticon == value[:english]
