@@ -17,5 +17,6 @@ end
 
 def get_english_meaning(emoticon_files, emoticon)
   emoticons = load_library(emoticon_files)
-  emoticons.each 
+  emoticons.each
+  binding.pry
 end
