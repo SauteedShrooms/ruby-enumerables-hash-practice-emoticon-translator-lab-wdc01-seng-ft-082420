@@ -4,7 +4,8 @@ require 'pry'# require modules here
 def load_library(emoticon_files)
   emoticons = YAML.load_file('./lib/emoticons.yml')
   new_hash = {}
-  emoticons.each do |key, value| 
+  emoticons.each do |key, value|
+    new_hash[key] = {
   binding.pry
 end
 end
