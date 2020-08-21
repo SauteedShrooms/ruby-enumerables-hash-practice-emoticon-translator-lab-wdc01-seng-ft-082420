@@ -8,7 +8,8 @@ def load_library(emoticon_files)
     new_hash[key] = {"English" => value[0], "Japanese" => value[1]}
   #binding.pry
  end
-end
+ new_hash
+ end
 
 def get_japanese_emoticon
   # code goes here
